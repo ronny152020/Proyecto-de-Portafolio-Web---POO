@@ -1,0 +1,110 @@
+.contenedorContacto{
+    background-color: #eba04ce0;
+    width: 75%;
+    color: rgba(126, 67, 0, 0.993);
+    margin-left: 14%;
+    margin-right: 20%;
+    margin-top: 44%;
+    
+    height: 500px;
+    display: flex
+}
+.col1{
+   margin-left: 18%;
+    
+    
+}
+.col2{
+   
+    display: flex;
+    margin-left: -19%;
+    width: 30%;
+    height: 10%;
+    margin-top: 13%;
+    
+    
+}
+.con{
+    font-size: 200%;
+    height: 15%;
+}
+.enviar{
+
+    color: white;
+   
+    float: left;    
+    margin-top: 5%;
+    width: 290px;
+    text-align: center;
+    margin-left: 16%;
+    height: 22px;
+    background-color: black;
+    border-radius: 88px; 
+    
+    
+}
+.nombre, .email, .mensaje{
+    margin-top: 6%;
+    
+}
+.mensajeInput{
+    height: 240%;
+}
+.nombreInput, .emailInput, .mensajeInput{
+    width: 95%;
+}
+.imgSocial{
+   
+    width: 22%;
+    height: 11%;
+    margin-left: -21%;
+    margin-right: 29%;
+    margin-top: 33%;
+    
+}
+.imgSocial img{
+    width: 14%;
+    margin-right: 14%;
+    
+}
+
+@media (max-width: 950px) {
+    .contenedorContacto{
+        margin-top: 270%;
+        height: 990px;
+    }
+    .col1{
+        
+        width: 88%;
+        height: 55%;
+        margin-left: 8%;
+    }
+    .col2{
+        float: left;
+        
+        margin-top: 150%;
+        margin-left: -113%;
+        
+    }
+    .enviar{
+        margin-left: 0%;
+    }
+    
+    .imgSocial{
+   
+        width: 22%;
+        height: 11%;
+        margin-left: -21%;
+        margin-right: 28%;
+        margin-top: 128%;
+        
+        
+    }
+    .imgSocial img{
+        width: 54%;
+        margin-left: -68%; 
+        margin-right: -79%;
+    
+    }
+    
+}
